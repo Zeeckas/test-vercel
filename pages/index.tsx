@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
 
-const buttonClassName = 'px-4 py-3 text-semibold'
+const buttonClassName = 'px-4 py-3 text-semibold bg-gray-100'
 
 function Counter() {
   const [count, setCount] = useState(0)
