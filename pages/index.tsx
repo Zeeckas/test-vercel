@@ -9,7 +9,7 @@ function Counter() {
   const [count, setCount] = useState(0)
   return (
     <div>
-      <button className={buttonClassName} onClick={() => setCount(count + 1)}>
+      <button className={buttonClassName} onClick={() => setCount(count + 2)}>
         INCREMENT
       </button>
       <pre>{count}</pre>
